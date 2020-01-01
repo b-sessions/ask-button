@@ -4,11 +4,11 @@ const answerBox = document.getElementById("answerer");
 const beyond = Infinity + 1;
 const toyStory = (2*Infinity) + beyond;
 // require('classList.js');
-const classList = ["Bowie","Steve","Lynn","Jo-Ellen","Erich","Mike","Peri",];
+const classList = ["Bowie","Steve","Lynn","Jo-Ellen","Erich","Mike G","Peri","Madeline","Jordan","Trevor","Phil","Todd","Amanda","Erich","Paul","Soledad","Rick","Tod","Laura","Jason Brezina","Kayla","Sara","Gretchen","Heather","Elizabeth","Lisa","Nicole W","Nicole H","Sara","Eve","Jennifer","Elle","Amber","Mike C","Nate","Brian","Bradley","Melissa","James","Joy","Peter","Anita","Rachael","Jessa","Jill","Molly","Matthew","Dan",];
 let answerer = classList.slice();
 let alreadyAsked = [];
 
-console.log(classList); //output: [ 'foo', 'bar', 3 ]
+console.log(classList.sort()); //output: [ 'foo', 'bar', 3 ]
 
 // Function which chooses the name displayed in the visible button.
 function changeAnswerer() {
