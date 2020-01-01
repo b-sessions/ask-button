@@ -1,0 +1,27 @@
+/* CORE ELEMENTS */
+/* Background color */
+body {
+	background: black;
+}
+
+/* CLASS ELEMENTS */
+/* The div that allows for centering of the clickable button */
+.answerContainer {
+	width: 250px;
+	margin: 0 auto;
+}
+
+/* ID ELEMENTS */
+/* The button that reveals the classmate,  and how it behaves*/
+#answerer {
+	display: block;
+	position: absolute;
+	width: 250px;
+	height: 5em;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-size: 100%;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
