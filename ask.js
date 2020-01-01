@@ -4,7 +4,7 @@ const answerBox = document.getElementById("answerer");
 const beyond = Infinity + 1;
 const toyStory = (2*Infinity) + beyond;
 // require('classList.js');
-const classList = ["Bowie","Steve","Lynn","Jo-Ellen","Erich","Mike G","Peri","Madeline","Jordan","Trevor","Phil","Todd","Amanda","Erich","Paul","Soledad","Rick","Tod","Laura","Jason Brezina","Kayla","Sara","Gretchen","Heather","Elizabeth","Lisa","Nicole W","Nicole H","Sara","Eve","Jennifer","Elle","Amber","Mike C","Nate","Brian","Bradley","Melissa","James","Joy","Peter","Anita","Rachael","Jessa","Jill","Molly","Matthew","Dane","Tiffany",];
+const classList = ["Bowie","Steve","Lynn","JoEllen","Heather E","Mike G","Peri","Madeline","Jordan","Trevor","Phil","Todd","Amanda","Erich","Paul","Soledad","Rick","Tod","Laura","Jason Brezina","Kayla","Sara","Gretchen","Heather N","Elizabeth","Lisa","Nicole W","Nicole H","Sara","Eve","Jennifer","Elle","Amber","Mike C","Nate","Brian","Bradley","Melissa","James","Anita","Rachael","Jessa","Jill","Molly","Matthew","Dane","Tiffany","Alex","Luca",];
 let answerer = classList.slice();
 let alreadyAsked = [];
 
